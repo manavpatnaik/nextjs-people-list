@@ -17,7 +17,7 @@ const Posts = ({ posts }) => {
     <div>
       <h1>Posts</h1>
       {posts.map((post) => (
-        <Link href="/" key={post.id}>
+        <Link href={"/posts/" + post.id} key={post.id}>
           <a className={styles.single}>
             <h3>{post.title}</h3>
           </a>
