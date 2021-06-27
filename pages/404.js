@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useEffect } from "react";
+import { useEffect, useCallback } from "react";
 import { useRouter } from "next/router";
 
 const NotFound = () => {
