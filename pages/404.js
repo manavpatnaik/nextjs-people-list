@@ -2,6 +2,8 @@ import Link from "next/link";
 import { useEffect, useCallback } from "react";
 import { useRouter } from "next/router";
 
+// This is a change that I made
+
 const NotFound = () => {
   const router = useRouter();
   useEffect(() => {
